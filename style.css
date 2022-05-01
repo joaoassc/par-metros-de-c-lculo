@@ -1,0 +1,13 @@
+body section {
+    display: flex;
+    height: auto;
+}
+
+ul{
+    list-style: none;
+}
+
+.economia{
+    background-color: red;
+
+}

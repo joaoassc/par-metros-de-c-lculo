@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pré Projeto</title>
+    <link rel="stylesheet" href="../Bootcamp_Pre_startese/style.css">
+</head>
+<body>
+    <header>
+
+        <h1>Simule a renda acumulada</h1>
+
+    </header>
+    <section class="container">
+        <ul>
+
+        <form action="/" id="formulario" method="POST">
+            <li>
+                <label for="renda">Informe sua renda mensal (R$)</label>    
+                <input placeholder="Exemplo: 1500.00" type="text" id="renda" name="renda">
+            </li>
+            <li>
+                <label for="porcentagem">Informe a porcentagem da renda que deseja poupar.</label>
+                <input placeholder="10" type="number" id="porcentagem" name="porcentagem">
+            </li>
+            <li>
+                <label for="periodo">Por quanto tempo deseja poupar, em meses?</label>
+                <input type="number" id="periodo" name="periodo">
+            </li>
+        <button type="submit" id="submit">Calcular valor acumulado</button>
+
+        <li>
+            <label for="economia">O valor acumulado ao final do período escolhido será de:</label>
+            <output type="number" id="economia" name="economia">
+        </li>
+
+        </form>
+
+        </ul>
+
+
+</body>
+</html>
